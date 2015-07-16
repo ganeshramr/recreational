@@ -1,5 +1,4 @@
-var app = angular.module('myApp', []);
-app.controller('myCtrler', function($scope) {
+myApp.controller('myCtrler', function($scope) {
     $scope.hits= 0;
     $scope.size= 0;
 
