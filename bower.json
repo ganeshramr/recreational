@@ -1,0 +1,19 @@
+{
+  "name": "myNodeProject",
+  "version": "0.0.0",
+  "description": "sample",
+  "authors": [
+    "ganeshram"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web server sizng</title>
+  </head>
+    <body>
+      <div class="container">
+        <h1>Web Server sizing</h1>
+        <div class="jumbotron"  ng-controller="myCtrler">
+          <form>
+            <div class="form-group">
+              <label for="hits"># of hits/second</label>
+              <input type="text" class="form-control" ng-model="hits">
+            </div>
+            <div class="form-group">
+              <label for="size">request + response size in bits</label>
+              <input type="text" class="form-control" ng-model="size">
+            </div>
+            <input type="button" value="What is the bandwidth needed ?" ng-click="calculateBandWidth()" class="btn btn-default">
+        </div>
+  </body>
+</html>
